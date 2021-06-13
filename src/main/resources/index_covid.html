@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Ramabhadra&display=swap" rel="stylesheet" />
+    <link href="main_covid.css" rel="stylesheet" type="text/css" />
+    <title>covid dashboard</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", {
+            packages: ["corechart"]
+        });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ["Type","Value"],
+                ["active cases",159690774.0-95390977.0 ],
+                ["Total Deaths",3317579.0],
+                ["Recoverxed",95390977]
+               
+            ]);
+            var options = {
+                legend: 'none',
+                pieHole: 0.5,
+                backgroundColor: '',
+                height: 300,
+                width: 250,
+                tooltip: { trigger: 'selection' },
+                pieSliceText: 'none',
+                colors:['#D3BCC0','#69306D','#A5668B']
+            };
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+            chart.draw(data, options);
+        }
+    </script>
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <script>
+    am4core.ready(function() {
+
+    // Themes begin
+    am4core.useTheme(am4themes_animated);
+    // Themes end
+
+    // Create chart instance
+    var chart = am4core.create("chartdiv", am4charts.XYChart);
+
+    //
+
+    // Increase contrast by taking evey second color
+    chart.colors.step = 2;
+
+    // Add data
+    chart.data = generateChartData();
+
+    // Create axes
+    var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
+    dateAxis.renderer.minGridDistance = 50;
+
+    // Create series
+    function createAxisAndSeries(field, name, opposite, bullet) {
+    var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+     if(chart.yAxes.indexOf(valueAxis) != 0){
+    	valueAxis.syncWithAxis = chart.yAxes.getIndex(0);
+    }
+  
+     var series = chart.series.push(new am4charts.LineSeries());
+     series.dataFields.valueY = field;
+    series.dataFields.dateX = "date";
+    series.strokeWidth = 2;
+    series.yAxis = valueAxis;
+    series.name = name;
+    series.tooltipText = "{name}: [bold]{valueY}[/]";
+    series.tensionX = 0.8;
+    series.showOnInit = true;
+  
+    var interfaceColors = new am4core.InterfaceColorSet();
+  
+    switch(bullet) {
+    case "triangle":
+      var bullet = series.bullets.push(new am4charts.Bullet());
+      bullet.width = 12;
+      bullet.height = 12;
+      bullet.horizontalCenter = "middle";
+      bullet.verticalCenter = "middle";
+      
+        var triangle = bullet.createChild(am4core.Triangle);
+        triangle.stroke = interfaceColors.getFor("background");
+        triangle.strokeWidth = 2;
+         triangle.direction = "top";
+          triangle.width = 12;
+          triangle.height = 12;
+          break;
+        case "rectangle":
+         var bullet = series.bullets.push(new am4charts.Bullet());
+          bullet.width = 10;
+          bullet.height = 10;
+             bullet.horizontalCenter = "middle";
+         bullet.verticalCenter = "middle";
+      
+          var rectangle = bullet.createChild(am4core.Rectangle);
+       rectangle.stroke = interfaceColors.getFor("background");
+       rectangle.strokeWidth = 2;
+       rectangle.width = 10;
+      rectangle.height = 10;
+          break;
+    
+    default:
+      var bullet = series.bullets.push(new am4charts.CircleBullet());
+      bullet.circle.stroke = interfaceColors.getFor("background");
+      bullet.circle.strokeWidth = 2;
+      break;
+  }
+  
+    valueAxis.renderer.line.strokeOpacity = 1;
+    valueAxis.renderer.line.strokeWidth = 2;
+     valueAxis.renderer.line.stroke = series.stroke;
+    valueAxis.renderer.labels.template.fill = series.stroke;
+    valueAxis.renderer.opposite = opposite;
+    }
+
+    createAxisAndSeries("visits", "Visits", false, "circle");
+    createAxisAndSeries("views", "Views", true, "triangle");
+    createAxisAndSeries("hits", "Hits", true, "rectangle");
+    createAxisAndSeries("pats","Recovery",true,"")
+
+    // Add legend
+    chart.legend = new am4charts.Legend();
+
+    // Add cursor
+    chart.cursor = new am4charts.XYCursor();
+
+    // generate some random data, quite different range
+    function generateChartData() {
+    var chartData = [];
+    var firstDate = new Date();
+    firstDate.setDate(firstDate.getDate() - 100);
+    firstDate.setHours(0, 0, 0, 0);
+
+    var visits = 1600;
+    var hits = 2900;
+    var views = 8700;
+    var pats = 5748;
+    for (var i = 0; i < 15; i++) {
+     // we create date objects here. In your data, you can have date strings
+            // and then set format of your dates using chart.dataDateFormat property,
+        // however when possible, use date objects, as this will speed up chart rendering.
+        var newDate = new Date(firstDate);
+        newDate.setDate(newDate.getDate() + i);
+
+        visits += Math.round((Math.random()<0.5?1:-1)*Math.random()*10);
+        hits += Math.round((Math.random()<0.5?1:-1)*Math.random()*10);
+        views += Math.round((Math.random()<0.5?1:-1)*Math.random()*10);
+        pats += Math.round((Math.random()<0.5?1:-1)*Math.random()*10);
+        chartData.push({
+          date: newDate,
+          visits: visits,
+          hits: hits,
+          views: views,
+          pats: pats
+     });
+    }
+    return chartData;
+    }
+
+}); // end am4core.ready()
+</script>
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/21.1.3/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/21.1.3/css/dx.material.blue.light.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+    <script>
+        window.angular || document.write(decodeURIComponent('%3Cscript src="js/angular.min.js"%3E%3C/script%3E'))
+    </script>
+    <script src="https://cdn3.devexpress.com/jslib/21.1.3/js/dx.all.js"></script>
+    <script type="text/javascript">var dataSource = [{
+    age: "0-20",
+    male: -3.1,
+    female: 2.9
+}, {
+    age: "20-40",
+    male: -3.1,
+    female: 3.0
+}, {
+    age: "40-60",
+    male: -3.0,
+    female: 2.9
+}, {
+    age: "60-80",
+    male: -3.2,
+    female: 3.0
+}, {
+    age: "80-100",
+    male: -3.5,
+    female: 3.3
+}]</script>
+
+    <script type="text/javascript">var DemoApp = angular.module('DemoApp', ['dx']);
+
+DemoApp.controller('DemoController', function DemoController($scope) {
+    $scope.chartOptions = {
+
+        dataSource: dataSource,
+        rotated: true,
+        barGroupWidth: 25,
+        commonSeriesSettings: {
+            type: "stackedbar",
+            argumentField: "age"
+        },
+        series: [{
+            valueField: "male",
+            name: "Male",
+            color: "#3F7FBF"
+        }, {
+            valueField: "female",
+            name: "Female",
+            color: "#F87CCC"
+        }],
+        tooltip: {
+            enabled: true,
+            customizeTooltip: function() {
+                return {
+                    text: Math.abs(this.valueText)
+                };
+            }
+        },
+        valueAxis: {
+            label: {
+                customizeText: function() {
+                    return Math.abs(this.value);
+                }
+            }
+        },
+        legend: {
+            verticalAlignment: "bottom",
+            horizontalAlignment: "center",
+            margin: { left: 50 }
+        }
+    };
+});</script>
+</head>
+
+<body>
+    <div class="v507_0">
+        
+        <div class="v507_13"></div>
+        <div class="v507_19">
+        <div class = "v477_91">
+              <div id= "chartdiv"></div>
+            </div>
+        
+        </div>
+        
+        <div class="v507_20"></div>
+        <div class="v507_21"></div>
+        <div class="v507_22"></div>
+        <div class="v507_23"></div>
+        <div class="v557_3">
+        <div class="demo-container" ng-app="DemoApp" ng-controller="DemoController">
+                <div dx-chart="chartOptions"></div>
+            </div>
+        </div>
+        
+        <span class="v507_26">Breakdown</span>
+        <div class="v507_27"></div>
+        <span class="v507_28">Active Cases</span>
+        <span class="v507_29">Recovered</span>
+        <span class="v507_30">Deaths</span>
+        <div class="v507_31">
+        <div id="donutchart" style=" height:auto"></div>
+        </div>
+        <div class="v507_32"></div>
+        <div class="v507_33"></div>
+        <div class="v507_34"></div>
+        <div class="v507_35"></div>
+        <div class="v507_36"></div>
+        <span class="v507_37">5512</span>
+        <span class="v507_38">5512</span>
+        <span class="v507_39">69912</span>
+        <div class="v507_40"></div>
+        <div class="v507_41"></div>
+        <span class="v507_42">(1%)</span>
+        <span class="v507_43">(1%)</span>
+        <span class="v507_44">(1%)</span>
+        <span class="v507_45">Number Of Cases</span>
+        <span class="v507_46">Age and Gender Distribution</span>
+        <div class="v507_47"></div>
+        <span class="v507_48">Active Cases</span>
+        <span class="v507_49">Recovered</span>
+        <span class="v507_50">Deaths</span>
+        
+        <span class="v507_52">New Cases</span>
+        <div class="v507_53"></div>
+        <span class="v507_54">Dashboard Of The COV1D-19 Virus Outbreak In <span th:text="${country_name}"></span></span>
+        <div class="v507_55"></div>
+        <div class="v507_56"></div>
+        <span class="v507_57">2020-01-22 to 2021-05-11</span></span>
+        <div class="v507_58"></div>
+        <div class ="v507_59">
+            <form action="/index_covid.html" method="post">
+            <div class='form-group'>
+                <label for='covid_country' class ="v507_59">Select Country:</label>
+                <select id = 'covid_country' name = 'covid_country'>
+                    <option th:each="country : ${types}" th:text="${country}"></option>
+                </select>
+            </div>
+            <button type='submit' class='btn btn-primary'>Submit</button>
+            </form>
+        </div>
+        <div class="v507_60"></div>
+        <div class="v507_61"></div>
+        <div class="v507_71">
+            <div class="v507_72"></div>
+            <div class="v507_73"></div>
+            <span class="v507_74">150,151,152,153,154</span>
+            <span class="v507_75">Total Cases</span></div>
+        <div class="v507_77">
+            <div class="v507_14"></div>
+            <span class="v507_64">150,151,152</span>
+            <span class="v507_65">Active Cases</span>
+            <div class="v507_68"></div>
+        </div>
+        <div class="v507_78">
+            <div class="v507_15">
+            </div>
+            <span class="v507_67">Recovered</span>
+            <div class="v507_69"></div>
+            <span class="v507_70">150,151,152,153,154</span>
+        </div>
+        <div class="v507_79">
+            <div class="v507_16"></div>
+            <span class="v507_18">Deaths</span>
+            <div class="v507_24"></div>
+            <span class="v507_25">150,151,152,153,154</span>
+        </div>
+
+        <div class=e633_162>
+            <a href="index_landingpage.html"><span class="e633_163">covid19</span>
+                <span class="e633_164">GJ</span></a>
+            <div class=e633_165>
+                <a href="index_landingpage.html"><span class="e633_166">Home</span></a>
+                <a href=""> <span class="e633_167">Timeline</span></a>
+                <a href="index_covid.html"><span class="e633_168">Covid Dashboard</span></a>
+                <a href="index_rename.html"><span class="e633_169">Vaccine Dashboard</span></a>
+                <a href=""><span class="e633_170">Map Data</span></a>
+                <a href=""><span class="e633_171">CovidSOS</span></a>
+            </div>
+    </div>
+    </div>
+    </div>
+    
+</body>
+
+</html>

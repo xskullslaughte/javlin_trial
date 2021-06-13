@@ -1,0 +1,1223 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-size: 14px;
+        }
+        
+        .v507_0 {
+            width: 100%;
+            height: 1995px;
+            background: #f0f0f3;
+            opacity: 1;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            overflow: hidden;
+        }
+        
+        .v507_1 {
+            width: 100%;
+            height: 45px;
+            background: rgba(255, 255, 255, 1);
+            opacity: 1;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            overflow: hidden;
+        }
+        
+        .v507_2 {
+            width: 99px;
+            color: rgba(51, 69, 127, 1);
+            position: absolute;
+            top: 1px;
+            left: 45px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 24px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_3 {
+            width: 32px;
+            color: rgba(41, 128, 251, 1);
+            position: absolute;
+            top: 0px;
+            left: 144px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 24px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_4 {
+            width: 643px;
+            height: 45px;
+            background: url("/images_covid/v507_4.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 1px;
+            left: 344px;
+            overflow: hidden;
+        }
+        
+        .v507_5 {
+            width: 42px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 12px;
+            left: 18px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_6 {
+            width: 42px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 11px;
+            left: 99px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_7 {
+            width: 42px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 11px;
+            left: 180px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_8 {
+            width: 42px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 11px;
+            left: 261px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_9 {
+            width: 42px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 11px;
+            left: 342px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_10 {
+            width: 42px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 11px;
+            left: 423px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_11 {
+            width: 42px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 11px;
+            left: 504px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_12 {
+            width: 42px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 12px;
+            left: 585px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_13 {
+            width: 1192px;
+            height: 425px;
+            background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 1268px;
+            left: 84px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_19 {
+            width: 869px;
+            height: 384px;
+            background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 324px;
+            left: 86px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            box-sizing: border-box;
+            box-shadow: -4px 4px 8px rgba(227, 227, 227, 0.2), 4px -4px 8px rgba(227, 227, 227, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9), 4px 4px 10px rgba(227, 227, 227, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(227, 227, 227, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .line {
+            width: 869px;
+            height: 300px;
+            opacity: 0.7;
+            position: absolute;
+            top: 45px;
+            left: 0px;
+            overflow: hidden;
+        }
+        
+        .v507_20 {
+            width: 292px;
+            height: 384px;
+            background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 327px;
+            left: 978px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            box-sizing: border-box;
+            box-shadow: -4px 4px 8px rgba(227, 227, 227, 0.2), 4px -4px 8px rgba(227, 227, 227, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9), 4px 4px 10px rgba(227, 227, 227, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(227, 227, 227, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_21 {
+            width: 264px;
+            height: 517px;
+            background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 729px;
+            left: 91px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_22 {
+            width: 264px;
+            ;
+            height: 517px;
+            background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 729px;
+            left: 1001px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_23 {
+            width: 600px;
+            height: 517px;
+            background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 729px;
+            left: 380px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_26 {
+            width: 108px;
+            color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 339px;
+            left: 1027px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_27 {
+            width: 40px;
+            height: 38px;
+            background: url("/images_covid/v507_27.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 339px;
+            left: 987px;
+            overflow: hidden;
+        }
+        
+        .v507_28 {
+            width: 94px;
+            color: rgba(211, 188, 192, 1);
+            position: absolute;
+            top: 593px;
+            left: 990px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_29 {
+            width: 77px;
+            color: rgba(165, 102, 139, 1);
+            position: absolute;
+            top: 593px;
+            left: 1136px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_30 {
+            width: 50px;
+            color: rgba(105, 48, 109, 1);
+            position: absolute;
+            top: 648px;
+            left: 1087px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_31 {
+            width: 172px;
+            height: 164px;
+            opacity: 1;
+            position: absolute;
+            top: 310px;
+            left: 1000px;
+            border-radius: 50%;
+        }
+        
+        .v507_32 {
+            width: 13px;
+            height: 13px;
+            background: rgba(211, 188, 192, 1);
+            opacity: 1;
+            position: absolute;
+            top: 624px;
+            left: 994px;
+            border-radius: 50%;
+        }
+        
+        .v507_33 {
+            width: 10px;
+            height: 10px;
+            background: rgba(17, 138, 178, 1);
+            opacity: 1;
+            position: absolute;
+            top: 352px;
+            left: 370px;
+            border-radius: 50%;
+        }
+        
+        .v507_34 {
+            width: 10px;
+            height: 10px;
+            background: rgba(5, 214, 159, 1);
+            opacity: 1;
+            position: absolute;
+            top: 352px;
+            left: 487px;
+            border-radius: 50%;
+        }
+        
+        .v507_35 {
+            width: 10px;
+            height: 10px;
+            background: rgba(239, 71, 111, 1);
+            opacity: 1;
+            position: absolute;
+            top: 352px;
+            left: 598px;
+            border-radius: 50%;
+        }
+        
+        .v507_36 {
+            width: 10px;
+            height: 10px;
+            background: rgba(252, 195, 62, 1);
+            opacity: 1;
+            position: absolute;
+            top: 352px;
+            left: 683px;
+            border-radius: 50%;
+        }
+        
+        .v507_37 {
+            width: 45px;
+            color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 610px;
+            left: 1012px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_38 {
+            width: 56px;
+            color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 661px;
+            left: 1105px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_39 {
+            width: 56px;
+            color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 613px;
+            left: 1154px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_40 {
+            width: 13px;
+            height: 13px;
+            background: rgba(165, 102, 139, 1);
+            opacity: 1;
+            position: absolute;
+            top: 626px;
+            left: 1136px;
+            border-radius: 50%;
+        }
+        
+        .v507_41 {
+            width: 13px;
+            height: 13px;
+            background: rgba(105, 48, 109, 1);
+            opacity: 1;
+            position: absolute;
+            top: 676px;
+            left: 1087px;
+            border-radius: 50%;
+        }
+        
+        .v507_42 {
+            width: 25px;
+            color: rgba(0, 0, 0, 0.25);
+            position: absolute;
+            top: 629px;
+            left: 1056px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 10px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_43 {
+            width: 22px;
+            color: rgba(0, 0, 0, 0.25);
+            position: absolute;
+            top: 631px;
+            left: 1210px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 10px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_44 {
+            width: 38px;
+            color: rgba(0, 0, 0, 0.25);
+            position: absolute;
+            top: 679px;
+            left: 1149px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 10px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_45 {
+            width: 168px;
+            color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 336px;
+            left: 154px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_46 {
+            width: 339px;
+            color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 731px;
+            left: 448px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 25px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_47 {
+            width: 40px;
+            height: 38px;
+            background: url("/images_covid/v507_47.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 339px;
+            left: 107px;
+            overflow: hidden;
+        }
+        
+        .v507_48 {
+            width: 94px;
+            color: rgba(252, 195, 62, 1);
+            position: absolute;
+            top: 341px;
+            left: 699px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_49 {
+            width: 77px;
+            color: rgba(5, 214, 159, 1);
+            position: absolute;
+            top: 341px;
+            left: 503px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_50 {
+            width: 50px;
+            color: rgba(239, 71, 111, 0.7400000095367432);
+            position: absolute;
+            top: 341px;
+            left: 615px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_51 {
+            width: 60px;
+            color: rgba(247, 37, 133, 0.7400000095367432);
+            position: absolute;
+            top: 1092px;
+            left: 443px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 18px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_52 {
+            width: 79px;
+            color: rgba(17, 138, 178, 1);
+            position: absolute;
+            top: 341px;
+            left: 386px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 15px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_53 {
+            width: 48px;
+            height: 38px;
+            background: url("/images_covid/v507_53.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 740px;
+            left: 392px;
+            overflow: hidden;
+        }
+        
+        .v507_54 {
+            width: 624px;
+            color: rgba(0, 0, 0, 0.5099999904632568);
+            position: absolute;
+            top: 138px;
+            left: 84px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 23px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_55 {
+            width: 247px;
+            height: 39px;
+            background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 74px;
+            left: 1000px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: -6px 6px 12px rgba(215, 215, 215, 0.2), 6px -6px 12px rgba(215, 215, 215, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(215, 215, 215, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(215, 215, 215, 0.5);
+            overflow: hidden;
+        }
+        
+        .v507_56 {
+            width: 28px;
+            height: 45px;
+            background: url("/images_covid/v507_56.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 70px;
+            left: 1007px;
+            overflow: hidden;
+        }
+        
+        .v507_57 {
+            width: 194px;
+            color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 77px;
+            left: 1039px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 16px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_58 {
+            width: 205px;
+            height: 39px;
+            background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 74px;
+            left: 770px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: -6px 6px 12px rgba(215, 215, 215, 0.2), 6px -6px 12px rgba(215, 215, 215, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(215, 215, 215, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(215, 215, 215, 0.5);
+            overflow: hidden;
+        }
+        
+        .v507_59 {
+            width: 113px;
+            color: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 77px;
+            left: 813px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 16px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_60 {
+            width: 30px;
+            height: 30px;
+            background: url("/images_covid/v507_60.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 76px;
+            left: 932px;
+            overflow: hidden;
+        }
+        
+        .v507_61 {
+            width: 25px;
+            height: 25px;
+            background: url("/images_covid/v507_61.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 77px;
+            left: 780px;
+            overflow: hidden;
+        }
+        
+        .v507_71 {
+            width: 299px;
+            height: 102px;
+            background: url("/images_covid/v507_71.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 207px;
+            left: 76px;
+            overflow: hidden;
+        }
+        
+        .v507_72 {
+            width: 280px;
+            height: 93px;
+            opacity: 1;
+            position: absolute;
+            top: 0px;
+            left: 7px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background: linear-gradient(135deg, #f1f0f0 0%, #FFFFFF 100%);
+            box-shadow: -4px 4px 8px rgba(227, 227, 227, 0.2), 4px -4px 8px rgba(227, 227, 227, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9), 4px 4px 10px rgba(227, 227, 227, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(227, 227, 227, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 200ms ease-in-out;
+        }
+        
+        .v507_72:hover {
+            background: rgba(165, 166, 246, 0.3);
+            box-shadow: inset 0px 0.545045px 1.09009px rgba(97, 97, 97, 0.2), inset 0px 1.09009px 2.18018px rgba(97, 97, 97, 0.2);
+            overflow: hidden;
+        }
+        
+        .v507_73 {
+            width: 30px;
+            height: 28px;
+            background: url("/images_covid/v507_73.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_74 {
+            width: 223px;
+            color: rgba(165, 166, 246, 0.7599999904632568);
+            position: absolute;
+            top: 43px;
+            left: 55px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_75 {
+            width: 112px;
+            color: rgba(165, 166, 246, 1);
+            position: absolute;
+            top: 5px;
+            left: 58px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_77 {
+            width: 304px;
+            height: 105px;
+            background: url("/images_covid/v507_77.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 206px;
+            left: 379px;
+            overflow: hidden;
+        }
+        
+        .v507_14 {
+            width: 280px;
+            height: 93px;
+            opacity: 1;
+            position: absolute;
+            top: 1px;
+            left: 10px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background: linear-gradient(135deg, #f1f0f0 0%, #FFFFFF 100%);
+            box-shadow: -4px 4px 8px rgba(227, 227, 227, 0.2), 4px -4px 8px rgba(227, 227, 227, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9), 4px 4px 10px rgba(227, 227, 227, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(227, 227, 227, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_14:hover {
+            background: #fae3c9d7;
+            box-shadow: inset 0px 0.545045px 1.09009px rgba(97, 97, 97, 0.2), inset 0px 1.09009px 2.18018px rgba(97, 97, 97, 0.2);
+        }
+        
+        .v507_64 {
+            width: 216px;
+            color: rgba(243, 154, 48, 0.6000000238418579);
+            position: absolute;
+            top: 46px;
+            left: 58px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_65 {
+            width: 125px;
+            color: rgba(243, 153, 48, 0.8100000023841858);
+            position: absolute;
+            top: 8px;
+            left: 61px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_68 {
+            width: 30px;
+            height: 28px;
+            background: url("/images_covid/v507_68.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 13px;
+            left: 23px;
+            overflow: hidden;
+        }
+        
+        .v507_78 {
+            width: 300px;
+            height: 104px;
+            background: url("/images_covid/v507_78.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 207px;
+            left: 687px;
+            overflow: hidden;
+        }
+        
+        .v507_15 {
+            width: 280px;
+            height: 93px;
+            background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 2px;
+            left: 7px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background: linear-gradient(135deg, #f1f0f0 0%, #FFFFFF 100%);
+            box-shadow: -4px 4px 8px rgba(227, 227, 227, 0.2), 4px -4px 8px rgba(227, 227, 227, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9), 4px 4px 10px rgba(227, 227, 227, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(227, 227, 227, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_15:hover {
+            background: rgba(197, 242, 199, 0.5);
+            box-shadow: inset 0px 0.545045px 1.09009px rgba(97, 97, 97, 0.2), inset 0px 1.09009px 2.18018px rgba(97, 97, 97, 0.2);
+            overflow: hidden;
+        }
+        
+        .v507_67 {
+            width: 103px;
+            color: rgba(36, 150, 26, 0.6499999761581421);
+            position: absolute;
+            top: 7px;
+            left: 50px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_69 {
+            width: 30px;
+            height: 28px;
+            background: url("/images_covid/v507_69.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            overflow: hidden;
+        }
+        
+        .v507_70 {
+            width: 211px;
+            color: rgba(36, 151, 25, 0.5799999833106995);
+            position: absolute;
+            top: 45px;
+            left: 47px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_79 {
+            width: 309px;
+            height: 109px;
+            background: url("/images_covid/v507_79.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 202px;
+            left: 995px;
+            overflow: hidden;
+        }
+        
+        .v507_16 {
+            width: 271px;
+            height: 93px;
+            background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+            opacity: 1;
+            position: absolute;
+            top: 4px;
+            left: 7px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background: linear-gradient(135deg, #E9E9E9 0%, #FFFFFF 100%);
+            box-shadow: -4px 4px 8px rgba(212, 212, 212, 0.274), 4px -4px 8px rgba(227, 227, 227, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9), 4px 4px 10px rgba(227, 227, 227, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(227, 227, 227, 0.5);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .v507_16:hover {
+            background: rgba(252, 208, 207, 0.5);
+            box-shadow: inset 0px 0.545045px 1.09009px rgba(97, 97, 97, 0.2), inset 0px 1.09009px 2.18018px rgba(97, 97, 97, 0.2);
+            overflow: hidden;
+        }
+        
+        .v507_18 {
+            width: 84px;
+            color: rgba(249, 14, 14, 0.5);
+            position: absolute;
+            top: 18px;
+            left: 57px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v507_24 {
+            width: 30px;
+            height: 28px;
+            background: url("/images_covid/v507_24.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+            top: 17px;
+            left: 17px;
+            overflow: hidden;
+        }
+        
+        .v507_25 {
+            width: 206px;
+            color: rgba(249, 14, 14, 0.3700000047683716);
+            position: absolute;
+            top: 58px;
+            left: 52px;
+            font-family: Ramabhadra;
+            font-weight: Regular;
+            font-size: 20px;
+            opacity: 1;
+            text-align: left;
+        }
+        
+        .v557_3 {
+            width: 543px;
+            height: 417px;
+            opacity: 1;
+            position: absolute;
+            top: 795px;
+            left: 410px;
+            overflow: hidden;
+        }
+        
+        .v477_91 {
+            position: absolute;
+            width: 797px;
+            height: 284px;
+            left: 10px;
+            top: 70px;
+        }
+        
+        #chartdiv {
+            height: 330px;
+            width: 100%;
+        }
+        
+        .e633_162 {
+            background-color: rgba(255, 255, 255, 1);
+            width: 1330px;
+            height: 45.400001525878906px;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+        }
+        
+        .e633_163 {
+            color: rgba(51.00000075995922, 69.00000348687172, 127.00000002980232, 1);
+            width: 99px;
+            height: 40px;
+            position: absolute;
+            left: 45px;
+            top: -1px;
+            font-family: Ramabhadra;
+            text-align: left;
+            font-size: 24px;
+            letter-spacing: 0;
+        }
+        
+        .e633_164 {
+            color: rgba(41.00000135600567, 128.0000075697899, 251.00000023841858, 1);
+            width: 32px;
+            height: 40px;
+            position: absolute;
+            left: 144px;
+            top: 0px;
+            font-family: Ramabhadra;
+            text-align: left;
+            font-size: 24px;
+            letter-spacing: 0;
+        }
+        
+        .e633_165 {
+            width: 643px;
+            height: 45px;
+            position: absolute;
+            left: 309px;
+            top: -3px;
+        }
+        
+        .e633_166 {
+            color: rgba(0, 0, 0, 1);
+            width: 42px;
+            height: 28.5px;
+            position: absolute;
+            left: 18px;
+            top: 12px;
+            font-family: Ramabhadra;
+            text-align: left;
+            font-size: 15px;
+            letter-spacing: 0;
+        }
+        
+        .e633_167 {
+            color: rgba(0, 0, 0, 1);
+            width: 62px;
+            height: 29px;
+            position: absolute;
+            left: 89px;
+            top: 12px;
+            font-family: Ramabhadra;
+            text-align: left;
+            font-size: 15px;
+            letter-spacing: 0;
+        }
+        
+        .e633_168 {
+            color: rgba(0, 0, 0, 1);
+            width: 81px;
+            height: 29px;
+            position: absolute;
+            left: 178px;
+            top: 12px;
+            font-family: Ramabhadra;
+            text-align: left;
+            font-size: 15px;
+            letter-spacing: 0;
+        }
+        
+        .e633_169 {
+            color: rgba(0, 0, 0, 1);
+            width: 71px;
+            height: 29px;
+            position: absolute;
+            left: 286px;
+            top: 12px;
+            font-family: Ramabhadra;
+            text-align: left;
+            font-size: 15px;
+            letter-spacing: 0;
+        }
+        
+        .e633_170 {
+            color: rgba(0, 0, 0, 1);
+            width: 117px;
+            height: 29px;
+            position: absolute;
+            left: 384px;
+            top: 12px;
+            font-family: Ramabhadra;
+            text-align: left;
+            font-size: 15px;
+            letter-spacing: 0;
+        }
+        
+        .e633_171 {
+            color: rgba(0, 0, 0, 1);
+            width: 81px;
+            height: 29px;
+            position: absolute;
+            left: 501px;
+            top: 12px;
+            font-family: Ramabhadra;
+            text-align: left;
+            font-size: 15px;
+            letter-spacing: 0;
+        }
+        
+        #covid_country{
+        width:100px;
+        }

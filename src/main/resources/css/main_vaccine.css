@@ -1,0 +1,806 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+.v568_0 {
+    width: 100%;
+    height: 1510px;
+    background: #F0F0F3;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v568_1 {
+    width: 100%;
+    height: 45px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v568_2 {
+    width: 99px;
+    color: rgba(51, 69, 127, 1);
+    position: absolute;
+    top: 1px;
+    left: 45px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_3 {
+    width: 32px;
+    color: rgba(41, 128, 251, 1);
+    position: absolute;
+    top: 0px;
+    left: 144px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_4 {
+    width: 643px;
+    height: 45px;
+    background: url("/images_vaccine/v568_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 344px;
+    overflow: hidden;
+}
+
+.v568_5 {
+    width: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_6 {
+    width: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 11px;
+    left: 99px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_7 {
+    width: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 11px;
+    left: 180px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_8 {
+    width: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 11px;
+    left: 261px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_9 {
+    width: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 11px;
+    left: 342px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_10 {
+    width: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 11px;
+    left: 423px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_11 {
+    width: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 11px;
+    left: 504px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_12 {
+    width: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 12px;
+    left: 585px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_13 {
+    width: 1163px;
+    height: 384px;
+    background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: absolute;
+    top: 1021px;
+    left: 84px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.v568_17 {
+    width: 582px;
+    height: 93px;
+    background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: absolute;
+    top: 196px;
+    left: 84px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+}
+
+.v568_17:hover {
+    background: rgba(165, 166, 246, 0.3);
+    box-shadow: inset 0px 0.545045px 1.09009px rgba(97, 97, 97, 0.2), inset 0px 1.09009px 2.18018px rgba(97, 97, 97, 0.2);
+    overflow: hidden;
+}
+
+.v568_19 {
+    width: 1163px;
+    height: 384px;
+    background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: absolute;
+    top: 304px;
+    left: 84px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.v568_46 {
+    width: 184px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 316px;
+    left: 147px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_48 {
+    width: 40px;
+    height: 38px;
+    background: url("/images_vaccine/v568_48.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 316px;
+    left: 107px;
+    overflow: hidden;
+}
+
+.v568_54 {
+    width: 588px;
+    color: rgba(0, 0, 0, 0.5099999904632568);
+    position: absolute;
+    top: 127px;
+    left: 86px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 23px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_58 {
+    width: 205px;
+    height: 39px;
+    background: linear-gradient(rgba(232, 232, 232, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: absolute;
+    top: 78px;
+    left: 1042px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.v568_59 {
+    width: 113px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 79px;
+    left: 1085px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_60 {
+    width: 30px;
+    height: 30px;
+    background: url("/images_vaccine/v568_60.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 1204px;
+    overflow: hidden;
+}
+
+.v568_61 {
+    width: 18px;
+    height: 23px;
+    background: url("/images_vaccine/v568_61.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 83px;
+    left: 1061px;
+    overflow: hidden;
+}
+
+.v568_62 {
+    width: 30px;
+    height: 28px;
+    background: url("/images_vaccine/v568_62.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 93px;
+    overflow: hidden;
+}
+
+.v568_63 {
+    width: 223px;
+    color: rgba(165, 166, 246, 0.7599999904632568);
+    position: absolute;
+    top: 246px;
+    left: 128px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_66 {
+    width: 159px;
+    color: rgba(165, 166, 246, 1);
+    position: absolute;
+    top: 208px;
+    left: 128px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_14 {
+    width: 556px;
+    height: 93px;
+    background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: absolute;
+    top: 196px;
+    left: 684px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.v568_14:hover {
+    background: rgba(197, 242, 199, 0.5);
+    box-shadow: inset 0px 0.545045px 1.09009px rgba(97, 97, 97, 0.2), inset 0px 1.09009px 2.18018px rgba(97, 97, 97, 0.2);
+    overflow: hidden;
+}
+
+.v568_64 {
+    width: 216px;
+    color: rgba(243, 154, 48, 0.6000000238418579);
+    position: absolute;
+    top: 245px;
+    left: 755px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_72 {
+    width: 178px;
+    color: rgba(165, 166, 246, 1);
+    position: absolute;
+    top: 207px;
+    left: 755px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v568_71 {
+    width: 30px;
+    height: 28px;
+    background: url("/images_vaccine/v568_71.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 212px;
+    left: 720px;
+    overflow: hidden;
+}
+
+.v578_2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: absolute;
+    top: 703px;
+    left: 84px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.v578_4 {
+    width: 523px;
+    height: 300px;
+    background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: absolute;
+    top: 706px;
+    left: 401px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.v578_3 {
+    width: 307px;
+    height: 300px;
+    background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: absolute;
+    top: 703px;
+    left: 940px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -6px 6px 12px rgba(212, 212, 212, 0.2), 6px -6px 12px rgba(212, 212, 212, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.v582_0 {
+    width: 219px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 711px;
+    left: 147px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v582_1 {
+    width: 186px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 1034px;
+    left: 147px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v582_2 {
+    width: 138px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 711px;
+    left: 473px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v582_3 {
+    width: 128px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 711px;
+    left: 995px;
+    font-family: Ramabhadra;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v582_5 {
+    width: 38px;
+    height: 48px;
+    background: url("/images_vaccine/v582_5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 1031px;
+    left: 103px;
+    overflow: hidden;
+}
+
+.v582_6 {
+    width: 38px;
+    height: 48px;
+    background: url("/images_vaccine/v582_6.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 706px;
+    left: 430px;
+    overflow: hidden;
+}
+
+.v582_7 {
+    width: 28px;
+    height: 28px;
+    background: url("/images_vaccine/v582_7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 716px;
+    left: 103px;
+    overflow: hidden;
+}
+
+.v582_8 {
+    width: 28px;
+    height: 28px;
+    background: url("/images_vaccine/v582_8.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 716px;
+    left: 117px;
+    overflow: hidden;
+}
+
+.v582_10 {
+    width: 38px;
+    height: 48px;
+    background: url("/images_vaccine/v582_10.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 706px;
+    left: 952px;
+    overflow: hidden;
+}
+
+.v593_2 {
+    width: 1120px;
+    height: 300px;
+    opacity: 1;
+    position: absolute;
+    top: 368px;
+    left: 80px;
+    overflow: hidden;
+}
+
+.v593_6 {
+    width: 1083px;
+    height: 320px;
+    opacity: 1;
+    position: absolute;
+    top: 1082px;
+    left: 124px;
+    overflow: hidden;
+}
+
+.v593_3 {
+    width: 254px;
+    height: 214px;
+    opacity: 1;
+    position: absolute;
+    top: 742px;
+    left: 107px;
+    overflow: hidden;
+}
+
+.v593_4 {
+    width: 457px;
+    height: 214px;
+    opacity: 1;
+    position: absolute;
+    top: 763px;
+    left: 434px;
+    overflow: hidden;
+}
+
+.v593_5 {
+    width: 255px;
+    height: 214px;
+    opacity: 1;
+    position: absolute;
+    top: 759px;
+    left: 971px;
+    overflow: hidden;
+}
+
+#chartdiv {
+    width: 1120px;
+    height: 320px;
+}
+
+#chartdiv2 {
+    height: 337.5px;
+}
+
+#chartdiv6 {
+    height: 232px;
+    width: 254px;
+}
+
+#chartdiv3 {
+    height: 232px;
+}
+
+#chartdiv4 {
+    height: 232px;
+}
+
+.e633_162 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 1330px;
+    height: 45.400001525878906px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.e633_163 {
+    color: rgba(51.00000075995922, 69.00000348687172, 127.00000002980232, 1);
+    width: 99px;
+    height: 40px;
+    position: absolute;
+    left: 45px;
+    top: -1px;
+    font-family: Ramabhadra;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+
+.e633_164 {
+    color: rgba(41.00000135600567, 128.0000075697899, 251.00000023841858, 1);
+    width: 32px;
+    height: 40px;
+    position: absolute;
+    left: 144px;
+    top: 0px;
+    font-family: Ramabhadra;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+
+.e633_165 {
+    width: 643px;
+    height: 45px;
+    position: absolute;
+    left: 309px;
+    top: -3px;
+}
+
+.e633_166 {
+    color: rgba(0, 0, 0, 1);
+    width: 42px;
+    height: 28.5px;
+    position: absolute;
+    left: 18px;
+    top: 12px;
+    font-family: Ramabhadra;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.e633_167 {
+    color: rgba(0, 0, 0, 1);
+    width: 62px;
+    height: 29px;
+    position: absolute;
+    left: 89px;
+    top: 12px;
+    font-family: Ramabhadra;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.e633_168 {
+    color: rgba(0, 0, 0, 1);
+    width: 81px;
+    height: 29px;
+    position: absolute;
+    left: 178px;
+    top: 12px;
+    font-family: Ramabhadra;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.e633_169 {
+    color: rgba(0, 0, 0, 1);
+    width: 71px;
+    height: 29px;
+    position: absolute;
+    left: 286px;
+    top: 12px;
+    font-family: Ramabhadra;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.e633_170 {
+    color: rgba(0, 0, 0, 1);
+    width: 117px;
+    height: 29px;
+    position: absolute;
+    left: 384px;
+    top: 12px;
+    font-family: Ramabhadra;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.e633_171 {
+    color: rgba(0, 0, 0, 1);
+    width: 81px;
+    height: 29px;
+    position: absolute;
+    left: 501px;
+    top: 12px;
+    font-family: Ramabhadra;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0;
+}
