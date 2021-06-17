@@ -45,11 +45,21 @@ public class CovidDashboard implements Handler {
         System.out.println(country);
         // Finally put all of these movies into the model
         model.put("types",country);
+
         String country_selected = context.formParam("covid_country");
         System.out.println(country_selected + " Country is selected");
         model.put("country_name", country_selected);
-
-
+        int cases = jdbc.gettotcases(country_selected);
+        System.out.println(cases);
+        model.put("total_cases",cases);
+        int recovered = jdbc.gettotrecovered(country_selected);
+        System.out.println(recovered);
+        model.put("recovered", recovered);
+        int deaths = jdbc.gettotdeaths(country_selected);
+        System.out.println(deaths);
+        model.put("Deaths", deaths);
+        System.out.println(cases-recovered-deaths);
+        model.put("active", (cases-(recovered+deaths)));
 
         // DO NOT MODIFY THIS
         // Makes Javalin render the webpage using Thymeleaf

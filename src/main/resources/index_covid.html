@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head>
+<span>
     <link href="https://fonts.googleapis.com/css?family=Ramabhadra&display=swap" rel="stylesheet" />
     <link href="main_covid.css" rel="stylesheet" type="text/css" />
     <title>covid dashboard</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
+
         google.charts.load("current", {
             packages: ["corechart"]
         });
@@ -14,9 +15,9 @@
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
                 ["Type","Value"],
-                ["active cases",159690774.0-95390977.0 ],
+                ["active cases": "[${active}]" ],
                 ["Total Deaths",3317579.0],
-                ["Recoverxed",95390977]
+                ["Recovered",95390977]
                
             ]);
             var options = {
@@ -121,8 +122,8 @@
     }
 
     createAxisAndSeries("visits", "Visits", false, "circle");
-    createAxisAndSeries("views", "Views", true, "triangle");
-    createAxisAndSeries("hits", "Hits", true, "rectangle");
+    createAxisAndSeries("views", "Active", true, "triangle");
+    createAxisAndSeries("hits", "Deaths", true, "rectangle");
     createAxisAndSeries("pats","Recovery",true,"")
 
     // Add legend
@@ -251,15 +252,15 @@ DemoApp.controller('DemoController', function DemoController($scope) {
 
 <body>
     <div class="v507_0">
-        
+
         <div class="v507_13"></div>
         <div class="v507_19">
         <div class = "v477_91">
               <div id= "chartdiv"></div>
             </div>
-        
+
         </div>
-        
+
         <div class="v507_20"></div>
         <div class="v507_21"></div>
         <div class="v507_22"></div>
@@ -269,7 +270,7 @@ DemoApp.controller('DemoController', function DemoController($scope) {
                 <div dx-chart="chartOptions"></div>
             </div>
         </div>
-        
+
         <span class="v507_26">Breakdown</span>
         <div class="v507_27"></div>
         <span class="v507_28">Active Cases</span>
@@ -297,7 +298,7 @@ DemoApp.controller('DemoController', function DemoController($scope) {
         <span class="v507_48">Active Cases</span>
         <span class="v507_49">Recovered</span>
         <span class="v507_50">Deaths</span>
-        
+
         <span class="v507_52">New Cases</span>
         <div class="v507_53"></div>
         <span class="v507_54">Dashboard Of The COV1D-19 Virus Outbreak In <span th:text="${country_name}"></span></span>
@@ -321,11 +322,11 @@ DemoApp.controller('DemoController', function DemoController($scope) {
         <div class="v507_71">
             <div class="v507_72"></div>
             <div class="v507_73"></div>
-            <span class="v507_74">150,151,152,153,154</span>
+            <span class="v507_74"><span th:text="${total_cases}"></span></span>
             <span class="v507_75">Total Cases</span></div>
         <div class="v507_77">
             <div class="v507_14"></div>
-            <span class="v507_64">150,151,152</span>
+            <span class="v507_64"><span th:text="${active}"></span></span>
             <span class="v507_65">Active Cases</span>
             <div class="v507_68"></div>
         </div>
@@ -334,13 +335,13 @@ DemoApp.controller('DemoController', function DemoController($scope) {
             </div>
             <span class="v507_67">Recovered</span>
             <div class="v507_69"></div>
-            <span class="v507_70">150,151,152,153,154</span>
+            <span class="v507_70"><Span th:text="${recovered}"></span></span>
         </div>
         <div class="v507_79">
             <div class="v507_16"></div>
             <span class="v507_18">Deaths</span>
             <div class="v507_24"></div>
-            <span class="v507_25">150,151,152,153,154</span>
+            <span class="v507_25"><span th:text="${Deaths}"></span>
         </div>
 
         <div class=e633_162>
